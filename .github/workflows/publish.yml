@@ -1,0 +1,4 @@
+# run when a release is published. (trigger packaging workflow)
+on:
+  release:
+    types:  [publish]
