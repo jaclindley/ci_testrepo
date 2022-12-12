@@ -1,0 +1,5 @@
+# run when push is made to MAIN branch incl. from merging Pull Req
+on:
+  push:
+    branches:
+      - main
